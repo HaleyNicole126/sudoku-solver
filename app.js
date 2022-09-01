@@ -60,7 +60,7 @@ const options = {
   url: 'https://solve-sudoku.p.rapidapi.com/',
   headers: {
     'content-type': 'application/json',
-    'X-RapidAPI-Key': 'f6199fa3dcmshfa46b350a69a920p191bf8jsncd19b81999e4',
+    'X-RapidAPI-Key': process.env.RAPID_API_KEY,
     'X-RapidAPI-Host': 'solve-sudoku.p.rapidapi.com'
   },
   data: {
